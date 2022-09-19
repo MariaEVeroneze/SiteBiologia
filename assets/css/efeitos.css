@@ -1,0 +1,99 @@
+.efeito1{
+    right: 60px;
+    top: 25px;
+    
+}
+
+.efeito2{
+    left: 40px;
+}
+
+.efeito3{
+    right: 40px;
+}
+
+.efeito4{
+    right: 30px;
+    animation: girar 3s linear infinite;
+}
+
+.efeito5{
+    left: 30px;
+    top: 35px;
+}
+
+.efeito6{
+    right: 40px;
+    top: 20px;
+}
+
+.efeito7{
+    right: 30px;
+    
+}
+
+.efeito8{
+    left: 30px;
+    
+}
+
+.efeito9{
+    right: 40px;
+    
+}
+
+.efeito10{
+    right: 30px;
+}
+
+.efeito11{
+    left: 40px;
+    
+}
+
+.efeito12{
+    right: 60px;
+    
+}
+
+
+.efeito13{
+    right: 40px;
+    animation: girar 3s linear infinite;
+}
+
+.efeito14{
+    left: 30px;
+    animation: efeito2 3s linear infinite;
+}
+
+.efeito15{
+    
+    left: 20px;
+    animation: efeito2 3s linear infinite;
+}
+
+.efeito16{
+    
+    right: 40px;
+    
+}
+
+@keyframes girar{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(20deg);}
+    100%{transform: rotate(0deg);}
+}
+
+@keyframes efeito2{
+    0%{transform: scale(.9);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(.9);}
+    
+}
+
+@keyframes bajar{
+    0%{top: 0;}
+    50%{top: 40px;}
+    100%{top: 0;}
+}
